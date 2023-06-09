@@ -8,7 +8,7 @@ function App() {
   const changeUsernameHandler = (event) => setUsername(event.target.value);
   return (
     <div className="App">
-      <UserInput onChange={changeUsernameHandler} />
+      <UserInput onChange={changeUsernameHandler} username={username} />
       <UserOutput username={username} />
       <UserOutput username={username} />
       <UserOutput username={username} />

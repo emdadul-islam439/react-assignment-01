@@ -7,7 +7,11 @@ class UserInput extends React.Component {
         <div>
           <h1>UserInput:</h1>
         </div>
-        <input type="textInput" onChange={this.props.onChange}  />
+        <input
+          type="textInput"
+          onChange={this.props.onChange}
+          value={this.props.username}
+        />
       </div>
     );
   }
