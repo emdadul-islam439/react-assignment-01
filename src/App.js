@@ -5,10 +5,10 @@ import UserOutput from "./components/UserOutput";
 
 function App() {
   const [username, setUsername] = useState("Emdadul Islam");
-  const changeUsername = (event) => setUsername(event.target.value);
+  const changeUsernameHandler = (event) => setUsername(event.target.value);
   return (
     <div className="App">
-      <UserInput />
+      <UserInput onChange={changeUsernameHandler} />
       <UserOutput username={username} />
       <UserOutput username={username} />
       <UserOutput username={username} />
