@@ -8,7 +8,7 @@ class UserOutput extends React.Component {
           <h1>UserOutput:</h1>
         </div>
         <p>loremp ipsum 1</p>
-        <p>loremp ipsum 2</p>
+        <p>Username: {this.props.username}</p>
       </div>
     );
   }
