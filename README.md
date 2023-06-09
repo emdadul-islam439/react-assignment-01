@@ -1,4 +1,4 @@
-### Assignment-task-01 of Schwartzmuller's React Course
+# Assignment-task-01 (Basic Syntax) of Schwartzmuller's React Course
 
 ### Task List:
 
